@@ -1,0 +1,17 @@
+git config --global user.name itsquelc
+git config --global user.email raquelnunescirino@gmail.com
+
+npx create-expo-app@latest Velhados --template blank
+
+cd quellolist
+
+rodar o projeto
+npm i
+
+rodar projeto no navegador
+npx expo install react-dom react-native-web @expo/metro-runtime
+npx expo start
+    
+npx expo start --localhost --android
+ou
+npm run android
